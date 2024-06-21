@@ -356,9 +356,9 @@ class GetRootState extends State<GetRoot> with WidgetsBindingObserver {
   }
 
   void onInit() {
-    if (config.getPages == null && config.home == null) {
-      throw 'You need add pages or home';
-    }
+    // if (config.getPages == null && config.home == null) {
+    //   throw 'You need add pages or home';
+    // }
 
     if (config.routerDelegate == null) {
       final newDelegate = GetDelegate.createDelegate(
